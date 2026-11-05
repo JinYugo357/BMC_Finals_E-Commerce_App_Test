@@ -1,21 +1,31 @@
-<<<<<<< HEAD
-# myapp
+# Flutter
 
-A new Flutter project.
+Flutter is an open-source framework for building beautiful, natively compiled, multi-platform applications from a single codebase, using the dart language.
 
-## Getting Started
+## Installation
 
-This project is a starting point for a Flutter application.
+Download the repository and extract to a folder with a myapp folder.
 
-A few resources to get you started if this is your first Flutter project:
+Run in VS Code (Make sure to have installed Flutter for Terminal).
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+Open Folder in VS Code. 
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
-=======
+Open a new terminal and run the following:
+
+```bash
+cd myapp
+flutter build apk
+```
+Once successful, the apk will be located in '\myapp\build\app\outputs\flutter-apk'
+
+
+
+## Contributing
+
+Pull requests are welcome. For major changes, please open an issue first
+to discuss what you would like to change.
+
+Please make sure to update tests as appropriate.
+
+
 # BMC_Finals_E-Commerce_App_Test
->>>>>>> ca61e137d6f3ef704f6c50e1031c254baf38f450
