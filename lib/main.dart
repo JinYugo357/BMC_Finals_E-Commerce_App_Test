@@ -251,7 +251,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
   }
 
   Widget _buildItem(BuildContext context, Product product, int index) {
-    final bool pointLeft = index % 2 == 0;
+    final bool pointLeft = product.id.isOdd;
 
     void open() => Navigator.push(
           context,
@@ -267,7 +267,7 @@ class _ProductListScreenState extends State<ProductListScreen> {
             height: 70,
             color: kPillPurple,
             alignment: Alignment.center,
-            child: Text(product.title, style: const TextStyle(fontSize: 18, fontWeight: FontWeight.bold, color: kInk)),
+            child: Text(product.title, style: const TextStyle(fontSize: 13, fontWeight: FontWeight.bold, color: kInk)),
           ),
         ),
       ),

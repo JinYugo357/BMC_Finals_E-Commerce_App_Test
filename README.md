@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # myapp
 
 A new Flutter project.
@@ -15,3 +16,6 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
+=======
+# BMC_Finals_E-Commerce_App_Test
+>>>>>>> ca61e137d6f3ef704f6c50e1031c254baf38f450
